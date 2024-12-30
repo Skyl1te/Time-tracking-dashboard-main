@@ -50,7 +50,7 @@ body {
 
 	&__content {
 		width: 100%;
-		max-width: 780px;
+		max-width: 960px;
 		margin: 0 auto;
 
 		display: grid;
@@ -297,10 +297,4 @@ body {
 		justify-content: space-between;
 		flex-grow: 1;
 	}
-}
-
-@media (min-width: 1440px) {
-	.dashboard__content {
-		width: 900px;
-	}	
 }

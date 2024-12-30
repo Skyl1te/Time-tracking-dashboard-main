@@ -47,7 +47,7 @@ body {
 }
 .dashboard__content {
   width: 100%;
-  max-width: 780px;
+  max-width: 960px;
   margin: 0 auto;
   display: grid;
   gap: 1.5rem;
@@ -256,10 +256,5 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
-  }
-}
-@media (min-width: 1440px) {
-  .dashboard__content {
-    width: 900px;
   }
 }
